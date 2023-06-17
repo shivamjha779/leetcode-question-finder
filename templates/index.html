@@ -13,7 +13,7 @@
     </div>
     <div>
       {% for result in results %}
-      <a href="{{ result['Question Link'] }}">{{ result['Question Link'] }}</a>
+      <a href="{{ result['Question Link'] }}" target="_blank">{{ result['Question Link'] }}</a>
       <p>Score: {{ result['Score'] }}</p>
       {% endfor %}
     </div>
